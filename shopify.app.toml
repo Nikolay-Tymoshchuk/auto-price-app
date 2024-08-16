@@ -3,13 +3,12 @@
 client_id = "e2220bb1ab95b3fff4d3b90c26876e2c"
 name = "Dynamic price app"
 handle = "dpa"
-application_url = "https://needed-frankly-crab.ngrok-free.app"
+application_url = "https://ks-gore-curious-salvation.trycloudflare.com"
 embedded = true
 
 [build]
-automatically_update_urls_on_dev = false
+automatically_update_urls_on_dev = true
 dev_store_url = "niko-wonderwork.myshopify.com"
-include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
@@ -17,9 +16,9 @@ scopes = "read_customer_events,read_orders,read_product_listings,read_products,r
 
 [auth]
 redirect_urls = [
-  "https://needed-frankly-crab.ngrok-free.app/auth/callback",
-  "https://needed-frankly-crab.ngrok-free.app/auth/shopify/callback",
-  "https://needed-frankly-crab.ngrok-free.app/api/auth/callback"
+  "https://ks-gore-curious-salvation.trycloudflare.com/auth/callback",
+  "https://ks-gore-curious-salvation.trycloudflare.com/auth/shopify/callback",
+  "https://ks-gore-curious-salvation.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
