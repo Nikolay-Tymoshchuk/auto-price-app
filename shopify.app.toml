@@ -3,7 +3,7 @@
 client_id = "e2220bb1ab95b3fff4d3b90c26876e2c"
 name = "Dynamic price app"
 handle = "dpa"
-application_url = "https://ks-gore-curious-salvation.trycloudflare.com"
+application_url = "https://bond-webcast-fiction-deutsche.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "read_customer_events,read_orders,read_product_listings,read_products,r
 
 [auth]
 redirect_urls = [
-  "https://ks-gore-curious-salvation.trycloudflare.com/auth/callback",
-  "https://ks-gore-curious-salvation.trycloudflare.com/auth/shopify/callback",
-  "https://ks-gore-curious-salvation.trycloudflare.com/api/auth/callback"
+  "https://bond-webcast-fiction-deutsche.trycloudflare.com/auth/callback",
+  "https://bond-webcast-fiction-deutsche.trycloudflare.com/auth/shopify/callback",
+  "https://bond-webcast-fiction-deutsche.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
